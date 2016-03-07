@@ -1,0 +1,6 @@
+@import url("normalize.css");
+.mostly{max-width: 1024px;margin: 0 auto}
+.verde_a{background: #70aa39}
+.verde_b{background: #97C335; margin: 1px solid; }
+.verde_c{background: #CDE1A7}
+.mostly-column{width: 50%; float: left;}

@@ -1,0 +1,45 @@
+
+@import url("normalize.css");
+
+.verde_a{background: #70aa39}
+.verde_b{background: #97C335}
+.verde_c{background: #CDE1A7}
+
+.Tweaks{
+
+	max-width: 768px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+}
+.Tweaks-name{
+	font-size: 4em;
+}
+.Tweaks-username{
+ font-size: 1.9em;
+
+}
+.tweaks-bio{
+ font-size: 2em;
+
+}
+.Tweaks-image{
+	height: auto;
+
+
+
+}
+
+@media screen and (max-width: 767px){
+
+.Tweaks{
+	font-size: 8px;
+}
+.Tweaks-image{
+
+
+width: 100%;
+height: auto;
+}
+
+}

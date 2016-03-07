@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=divice-width, initial-scale=1, maximun-scale=1">
+        <link rel='stylesheet', href='css/canvas.css'>
+        <title>Canvas</title>
+        
+    </head>
+    <body id='body'>
+
+     <header>
+      
+     
+     </header>
+
+     <section class="canvas">
+
+      
+        <header class="heade">      
+        <h1 class="header-logo">off canvas</h1>
+        <span id="show-menu" class="botton-menu icon-th-menu"></span>
+
+        <ul class="mainmenu " id="menu">
+         <li class="mainmenu-item"> <a href="#" class="mainmenu-link">cursos</a></li>
+         <li class="mainmenu-item"> <a href="#" class="mainmenu-link">Conferencias</a></li>
+         <li class="mainmenu-item"> <a href="#" class="mainmenu-link">Eventos</a></li>
+         <li class="mainmenu-item"> <a href="#" class="mainmenu-link">Contacto</a></li>
+        
+        </ul>
+       </header> 
+      
+
+     
+      <div class="canvas-main verde_b" id="main">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      </div>
+      <div class="canvas-sidebar verde_a">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+     
+     
+
+
+     </seccion>
+
+     <script type="text/javascript">
+   var $showmenu= document.getElementById('show-menu');
+   var $menu= document.getElementById('menu');
+  var $body= document.getElementById('main');
+   
+
+   var mostrar = function() {
+    
+    $menu.classList.add('is-active');
+     // body...
+   }
+    $showmenu.addEventListener("click", mostrar);
+ 
+
+ var ocultar = function() {
+    
+    $menu.classList.remove('is-active');
+     // body...
+   }
+    $body.addEventListener("click", ocultar);
+
+   
+
+
+
+
+
+     </script>
+      
+   
+
+    </body>
+</html>

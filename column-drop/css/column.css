@@ -1,0 +1,30 @@
+@import url("normalize.css");
+
+.verde_a{background: #70aa39}
+.verde_b{background: #97C335}
+.verde_c{background: #CDE1A7}
+
+
+
+.ColumnDrop-row{
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+}
+ColumnDrop{
+font-size: 0;
+
+}
+@media screen and (max-width: 900px){
+.ColumnDrop-row{
+	width: 48%
+}
+
+}
+@media screen and (max-width: 767px){
+.ColumnDrop-row{
+	width: 100%
+}
+
+}

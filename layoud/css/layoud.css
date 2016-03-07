@@ -1,0 +1,44 @@
+@import url("normalize.css");
+
+.verde_a{background: #70aa39}
+.verde_b{background: #97C335}
+.verde_c{background: #CDE1A7}
+
+.Shifter{
+
+max-width: 1024px;
+margin: 0 auto;
+
+
+
+}
+.Shifter-top{
+margin-bottom: 2px;
+}
+.Shifter-botton{
+	padding: 20px;
+	overflow: hidden;
+}
+
+.Shifter-column{
+	width: 50%;
+	float: left;
+}
+@media screen and (max-width: 1024px){
+.Shifter{
+max-width: 900px;
+}
+
+}
+@media screen and (max-width: 768px){
+.Shifter{
+	max-width: 600px;
+}
+
+}
+@media screen and (max-width: 767px){
+.Shifter{
+	max-width: 400px;
+}
+
+}
