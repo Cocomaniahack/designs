@@ -1,1 +1,1 @@
-diseños de patrones comunes para empezar diseño css
+diseños de patrones comunes para empezar diseños con lo mas basico de css
